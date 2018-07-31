@@ -1,0 +1,8 @@
+<import src="infoCard$0f32f390" />
+<import src="todolist$5cff3996" />
+<template name="index$11048e48">
+  <view class="_div data-v-5eca2e54">
+    <template data="{{...$root[$kk+'0'], $root}}" is="infoCard$0f32f390"></template>
+    <template data="{{...$root[$kk+'1'], $root}}" is="todolist$5cff3996"></template>
+  </view>
+</template>

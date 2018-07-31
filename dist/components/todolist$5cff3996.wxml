@@ -1,0 +1,10 @@
+<import src="todoitem$52f9c18b" />
+<template name="todolist$5cff3996">
+  <view id="app" class="_div data-v-5e66ff89">
+    <input value="{{inputValue}}" bindinput="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-5e66ff89" />
+    <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-5e66ff89">提交</button>
+    <view class="_ul data-v-5e66ff89">
+      <template wx:key="index" binddelete="handleProxy" data-eventid="{{'2-'+index}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0-'+index], $root}}" is="todoitem$52f9c18b" wx:for="{{list}}" wx:for-index="index" wx:for-item="item"></template>
+    </view>
+  </view>
+</template>

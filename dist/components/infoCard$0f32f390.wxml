@@ -1,0 +1,6 @@
+<template name="infoCard$0f32f390">
+  <view class="_div data-v-109ab983 infoCard" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <image src="{{backimg}}" alt="景点图片" class="_img data-v-109ab983"></image>
+    <label class="_span data-v-109ab983">{{test}}</label>
+  </view>
+</template>
